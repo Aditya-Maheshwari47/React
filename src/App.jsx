@@ -20,15 +20,10 @@ function App() {
         <section id="core-concepts">
         <h2>Core Concepts</h2>
         <ul>
-          <CoreConcepts
-            title = {CORE_CONCEPTS[0].title}
-            description = {CORE_CONCEPTS[0].description}
-            image = {CORE_CONCEPTS[0].image}
-          />
-          {/* alternate way using spread operator */}
-          <CoreConcepts {...CORE_CONCEPTS[1]}/>  
-          <CoreConcepts {...CORE_CONCEPTS[2]}/>   
-          <CoreConcepts {...CORE_CONCEPTS[3]}/> 
+          {/* outputing list dynamically using Array */}
+          {CORE_CONCEPTS.map((conceptId) => (
+            <CoreConcepts key = {conceptId.title}{...conceptId}/>
+            ))} 
         </ul>
         </section>
         <section id="examples">
