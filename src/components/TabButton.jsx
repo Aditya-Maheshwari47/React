@@ -1,9 +1,8 @@
-
-export default function TabButton({children, onSelect, isSelected}){
+export default function TabButton({children, isSelected, ...props}){
     return (
         // 'wire up' the custom prop(onSelect) to a real browser event (onClick).
         <li>
-            <button className={isSelected ? "active" : undefined} onClick={onSelect} >{children}</button>
+            <button className={isSelected ? "active" : undefined} {...props}>{children}</button>
         </li>
     );
 }
