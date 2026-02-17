@@ -27,6 +27,7 @@ export default function Examples() {
   return (
     <Section title="Examples" id="examples">
       <Tabs
+        // buttonsContainer = "menu"  --> default using props
         buttons={
           <>
             {/* passing custom arguments using () => */}
