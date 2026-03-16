@@ -1,0 +1,32 @@
+{
+  "opinions": [
+    {
+      "id": 1773657787384,
+      "votes": 2,
+      "userName": "abcd",
+      "title": "Form Actions",
+      "body": "Form actions are are added by React 19"
+    },
+    {
+      "id": 1773656682109,
+      "votes": 2,
+      "userName": "abcd",
+      "title": "React is Great!",
+      "body": "Everyone should learn this"
+    },
+    {
+      "id": 1,
+      "userName": "Maximilian Schwarzmüller",
+      "title": "Do yourself a favor and learn React!",
+      "body": "React is an amazing JavaScript library!\n\nDespite all it's shortcomings.",
+      "votes": 0
+    },
+    {
+      "id": 2,
+      "userName": "Maximilian Schwarzmüller",
+      "title": "React has more depth than you might first think!",
+      "body": "React is a great library to learn, but it's not just about the basics. Dive deeper!\nFor example with this course!",
+      "votes": 4
+    }
+  ]
+}
